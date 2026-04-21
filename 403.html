@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>403 Forbidden</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fff7ed; display:flex; justify-content:center; align-items:center; min-height:100vh; margin:0; }
+        .box { background:white; padding:40px; border-radius:18px; text-align:center; box-shadow:0 10px 25px rgba(0,0,0,0.08); }
+        h1 { color:#ea580c; font-size:60px; margin-bottom:10px; }
+        a { text-decoration:none; background:#ea580c; color:white; padding:10px 18px; border-radius:10px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>403</h1>
+        <p>Access Forbidden</p>
+        <a href="{{ url_for('login') }}">Go to Login</a>
+    </div>
+</body>
+</html>
